@@ -200,8 +200,6 @@ nav h3{
 }
 
 .get-in-touch form{
-    padding-top: 71px;
-    padding-bottom: 71px;
     max-width: 497px;
     width: 100%;
 }
@@ -210,7 +208,9 @@ nav h3{
     display: block;
     margin-top: 10px;
     margin-bottom: 19px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     width: 100%;
     border-radius: 10px;
     border: none;
