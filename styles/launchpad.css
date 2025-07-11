@@ -13,6 +13,11 @@
   font-style: normal;
 }
 
+body{
+    max-width: 1440px;
+    background-color: #F5F8FF;
+}
+
 header{
     background-image: url(../Assets/Hero-bg.png);
     margin: 0;
@@ -29,6 +34,12 @@ header{
     padding: 12px 36px;
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+
 }
 
 .text-center{
@@ -53,6 +64,7 @@ nav h3{
     font-weight: 900;
     color: #4E47FF;
 }
+
 /* Banner styles */
 .banner{
     font-size: 65px;
@@ -64,6 +76,7 @@ nav h3{
     margin-bottom: 85px;
 }
 
+/* Main styles */
 /* Action section styles */
 .action{
     display: flex;
@@ -92,45 +105,120 @@ nav h3{
 
 /* Productive-user section */
 .productive-user{
-    /* color: rgba(255, 255, 255, 1); */
+    background-color: #dfdff3;
+    margin: 116px 160px 137px 140px;
     padding: 50px 142px;
+    border-radius: 24px;
 }
 
 .productive-user h3{
     font-size: 38px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
-.productive-user ul{
+.user-stats{
     display: flex;
-    justify-content: center;
-    gap: 158px;
+    gap: 160px;
 }
 
-.productive-user ul li{
-    list-style: none;
-}
-
-.productive-user ul li h2{
+.user-stats h2{
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 
+/* Users feedback section */
+.feedback-container{
+    margin: 137px 150px;
+}
+
+.feedback-container h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.feedback-cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.feedback{
+    border: 14px;
+    border-radius: 14px;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+}
+
+.stars{
+    margin-bottom: 24px;
+}
+
+.reviewer-info{
+    display: flex;
+    gap: 12px;
+}
+
+.reviewer{
+    color: #8987A1;
+}
+
+
+
+
+/* Get in touch section styles */
+.get-in-touch{
+    display: flex;
+    gap: 115px;
+    /* margin: 92px 150px 14px 150px; */
+    margin-top: 92px;
+    margin-bottom: 14px;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: 1140px;
+}
+
+.get-in-touch h3{
+    font-size: 97px;
+    font-weight: bold;
+    height: 232px;
+    width: 528px;
+}
+
+.form{
+    padding: 71px;
+}
+
+.get-in-touch input[type="email"], input[type="text"], input[type="submit"], textarea{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
 
 
 /* Footer styles */
 footer{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     padding: 104px 455px;
     background-color: #FFFFFF;
 }
 
-footer h4{
-    /* justify-content: center; */
+footer h3{
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+footer p{
+    margin-bottom: 20px;
 }
 
 footer ul{
